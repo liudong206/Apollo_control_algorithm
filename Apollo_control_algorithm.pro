@@ -79,6 +79,8 @@ HEADERS += \
         vehicle_info/vehicle_params.h \
         vehicle_info/vehicle_state.h
 
+
+
 # Default rules for deployment.
 #qnx: target.path = /tmp/$${TARGET}/bin
 #else: unix:!android: target.path = /opt/$${TARGET}/bin
