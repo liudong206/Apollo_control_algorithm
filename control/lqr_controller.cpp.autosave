@@ -1,0 +1,20 @@
+#include "lat_controller.h"
+
+namespace control {
+
+LQRControl::LQRControl(){};
+
+LQRControl::~LQRControl(){};
+
+bool LQRControl::Init(const ControlConf *control_conf){
+    return true;
+}
+
+int LQRControl::ComputeControlCommand(const std::vector<TrajectoryPoint>* planning_trajectory,
+                                      const TrajectoryPoint &tartget_point,
+                                      const VehicleState &vehicle_state){
+    return 0;
+}
+
+
+}
